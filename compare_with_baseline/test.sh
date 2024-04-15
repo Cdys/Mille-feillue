@@ -6,8 +6,8 @@ input="cg_matrix_set.csv" #The name of dataset
   do
     for matrix in `find "/home/weifeng/MM/" -name "$name.mtx"` #The road of data
     do
-        ./Mille-feuille_CG $matrix
-        ./Mille-feuille_BiCGSTAB $matrix
+        ./Mille-feuille_CG_NVIDIA $matrix
+        ./Mille-feuille_BiCGSTAB_NVIDIA $matrix
         ./cuSPARSE_CG $matrix
         ./cuSPARSE_BiCGSTAB $matrix
     done
