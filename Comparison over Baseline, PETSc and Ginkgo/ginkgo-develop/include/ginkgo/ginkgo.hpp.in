@@ -1,0 +1,15 @@
+// SPDX-FileCopyrightText: 2017 - 2024 The Ginkgo authors
+//
+// SPDX-License-Identifier: BSD-3-Clause
+
+#ifndef GKO_GINKGO_HPP_
+#define GKO_GINKGO_HPP_
+
+
+#include <ginkgo/config.hpp>
+
+
+#PUBLIC_HEADER_PLACE_HOLDER
+
+
+#endif  // GKO_GINKGO_HPP_

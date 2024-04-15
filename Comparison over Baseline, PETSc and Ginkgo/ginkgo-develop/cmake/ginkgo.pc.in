@@ -1,0 +1,12 @@
+prefix=@PKG_CMAKE_INSTALL_PREFIX@
+libdir=@CMAKE_INSTALL_FULL_LIBDIR@
+includedir=@CMAKE_INSTALL_FULL_INCLUDEDIR@
+
+Name: @CMAKE_PROJECT_NAME@
+Description: @Ginkgo_DESCRIPTION@
+Version: @Ginkgo_VERSION@
+URL: https://ginkgo-project.github.io/
+
+Requires:
+Libs: @GINKGO_INTERFACE_LINK_FLAGS@
+Cflags: @GINKGO_INTERFACE_CXX_FLAGS@
